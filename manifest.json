@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "content_scripts": [ {
+        "exclude_globs":    [  ],
+        "include_globs":    [ "*" ],
+        "js":               [ "greasemonkey-nordinvasion.user.js" ],
+        "matches":          [   "http://*nordinvasion.com/*",
+                                "https://*nordinvasion.com/*"
+                            ],
+        "run_at": "document_end"
+    } ],
+    "converted_from_user_script": true,
+    "description":  "Shows the price per item on the NordInvasion AH",
+    "name":         "NordInvasion AH price per item",
+    "version":      "0.1"
+    "homepage_url": "https://github.com/smat/greasemonkey-nordinvasion"
+}
