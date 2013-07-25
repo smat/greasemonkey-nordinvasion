@@ -8,7 +8,7 @@ Install the script, and head for the auction hall to try it out.
 Chrome
 ------
 
-Install the as an extension from [Google Chrome Web Store]()
+Install the as an extension from [Google Chrome Web Store](https://chrome.google.com/webstore/detail/nordinvasion-price-per-it/aciidpoalcfgjecaiahoflbfnolmjmpc)
 
 
 Firefox
