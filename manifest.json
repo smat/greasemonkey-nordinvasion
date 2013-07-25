@@ -2,10 +2,10 @@
     "manifest_version": 2,
     "content_scripts": [ {
         "exclude_globs":    [  ],
-        "include_globs":    [ "*" ],
-        "js":               [ "greasemonkey-nordinvasion.user.js" ],
-        "matches":          [   "http://nordinvasion.com/*",
-                                "https://nordinvasion.com/*"
+        "include_globs":    [  ],
+        "js":               [ "jquery-2.0.3.min.js", "greasemonkey-nordinvasion.user.js" ],
+        "matches":          [   "http://*.nordinvasion.com/*",
+                                "https://*.nordinvasion.com/*"
                             ],
         "run_at": "document_end"
     } ],
